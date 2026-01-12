@@ -61,7 +61,7 @@ mistral_ocr_app/
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com//mistral-ocr-app.git
+git clone https://github.com/Priya-2319/mistral-ocr-app.git
 cd mistral-ocr-app
 ```
 
