@@ -197,8 +197,9 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("""
     <div style="text-align: center; color: #666; padding: 10px;">
-        Built with ❤️ by <a href='https://github.com/Priya-2319' style="color: #667eea;">Priya</a>
-        <br>Version 2.0
+        Academic Group Project 
+        <span style="color: #667eea; font-size: 0.9em;">Intelligent Document Processing System</span>
+        <br>Version 1.0
     </div>
     """, unsafe_allow_html=True)
 
