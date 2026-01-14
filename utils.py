@@ -23,3 +23,25 @@ def export_docx(text, path):
     
 def is_pdf(url: str) -> bool:
     return url.lower().endswith(".pdf")
+
+LANGUAGE_MAP = {
+    "en": "English",
+    "hi": "Hindi",
+    "fr": "French",
+    "de": "German",
+    "es": "Spanish",
+    "it": "Italian",
+    "pt": "Portuguese",
+    "ru": "Russian",
+    "zh-cn": "Chinese",
+    "ja": "Japanese",
+    "ko": "Korean",
+    "ar": "Arabic",
+    "bn": "Bengali",
+    "ta": "Tamil",
+    "te": "Telugu",
+    "mr": "Marathi",
+    "gu": "Gujarati",
+    "pa": "Punjabi",
+    "ur": "Urdu"
+}

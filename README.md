@@ -82,7 +82,7 @@ pip install -r requirements.txt
 
 You need a **Mistral API Key**.
 
-1. Get your API key from: [https://mistral.ai](https://mistral.ai)
+1. Get your API key from: [https://v2.auth.mistral.ai/login](https://v2.auth.mistral.ai/login)
 2. Enter the API key in the app UI when prompted
 
 ---
