@@ -17,7 +17,7 @@ def qa_text(api_key: str, text: str, question: str) -> str:
     res = client.chat.complete(
         model=MODEL_LLM,
         messages=[
-            {"role": "system", "content": "Answer only from the document"},
+            {"role": "system", "content": "Answer the question based on the provided text"},
             {"role": "user", "content": f"Text:\n{text}\n\nQuestion:\n{question}"}
         ]
     )
